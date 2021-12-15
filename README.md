@@ -2,12 +2,13 @@
 
 An assessment app built using react.
 
+## Demo
+![demo](demo.gif)
+
 ## Dependencies
 * NodeJS >= v10
 
 ## Installation
-```
-Install dependencies:
 ```bash
 $ npm install
 ```
