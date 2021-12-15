@@ -1,24 +1,21 @@
-# A React Webpack miniplate
+# Assessment App
 
-Get started with 
-* React
-* Webpack
-* Babel and css loaders
+An assessment app built using react.
+
+## Dependencies
+* NodeJS >= v10
 
 ## Installation
-Clone from repository:
-```
-$ git clone https://github.com/anusreesubash/react-miniplate.git
 ```
 Install dependencies:
-```js
+```bash
 $ npm install
 ```
 
 ## Run
 Build files and start local server in watch mode:
 ```js
-$ npm run start
+$ npm start
 ```
 This will open the browser at `http://localhost:8080/`.
 

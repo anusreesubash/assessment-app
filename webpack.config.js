@@ -6,7 +6,8 @@ module.exports = {
   devtool: "source-map",
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -33,7 +34,8 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist',
-    disableHostCheck: true
+    disableHostCheck: true,
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
